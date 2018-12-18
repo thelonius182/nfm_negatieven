@@ -1,6 +1,7 @@
 library(readr)
 library(data.table)
 library(dplyr)
+
 tbl_selected <- fread(file = "f:/documenten/cz_docs/Negatieven David/selected.txt", 
                       sep = "¶",
                       stringsAsFactors = FALSE, 
